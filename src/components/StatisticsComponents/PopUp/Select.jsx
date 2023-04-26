@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import Select from 'react-select';
 import '../../../components/Select/SelectCategory.scss';
 // import s from './Popup.module.scss';
