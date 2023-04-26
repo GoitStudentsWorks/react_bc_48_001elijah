@@ -29,6 +29,7 @@ const Info = () => {
     if ((squareMeters / footage) * 100 >= 100) {
       setShowCard(true);
     }
+    // eslint-disable-next-line
   }, []);
 
   return (
