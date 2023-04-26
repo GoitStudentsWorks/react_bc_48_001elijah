@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react_bc_48_001elijah/static/css/main.c186e8db.css",
+    "main.js": "/react_bc_48_001elijah/static/js/main.deac79da.js",
+    "static/media/Lato-Semibold.ttf": "/react_bc_48_001elijah/static/media/Lato-Semibold.dab63590f439194ec956.ttf",
+    "static/media/Lato-Bold.ttf": "/react_bc_48_001elijah/static/media/Lato-Bold.9cfae71062337c38b44f.ttf",
+    "static/media/Lato-Regular.ttf": "/react_bc_48_001elijah/static/media/Lato-Regular.cbcf73593dd54516d4b3.ttf",
+    "static/media/Lato-Medium.ttf": "/react_bc_48_001elijah/static/media/Lato-Medium.70b0923d7cb977f41dd4.ttf",
+    "static/media/Lato-Black.ttf": "/react_bc_48_001elijah/static/media/Lato-Black.2678bc5be691402b8993.ttf",
+    "static/media/hero-bg-desktop.png": "/react_bc_48_001elijah/static/media/hero-bg-desktop.8b256dd90e54a895c28f.png",
+    "static/media/hero-bg-tablet.png": "/react_bc_48_001elijah/static/media/hero-bg-tablet.cf630f824e74a1888b93.png",
+    "static/media/Unbounded-Medium.ttf": "/react_bc_48_001elijah/static/media/Unbounded-Medium.7c175c8bf950f747caf2.ttf",
+    "static/media/hero-bg-mobile.png": "/react_bc_48_001elijah/static/media/hero-bg-mobile.16e294de17fc8d0b8405.png",
+    "static/media/Roboto-Regular.ttf": "/react_bc_48_001elijah/static/media/Roboto-Regular.160d7a6ac26376e5e977.ttf",
+    "static/media/glyphicons-halflings-regular.svg": "/react_bc_48_001elijah/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/bg-desktop.png": "/react_bc_48_001elijah/static/media/bg-desktop.e1e259a6a82e821f7164.png",
+    "static/media/bg-tablet.png": "/react_bc_48_001elijah/static/media/bg-tablet.3fc6c1c515420d40ec4b.png",
+    "static/media/glyphicons-halflings-regular.ttf": "/react_bc_48_001elijah/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/react_bc_48_001elijah/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/react_bc_48_001elijah/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/one-more-sq-meter.png": "/react_bc_48_001elijah/static/media/one-more-sq-meter.461fb7ef939628c36610.png",
+    "static/media/glyphicons-halflings-regular.woff2": "/react_bc_48_001elijah/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "static/media/sprite.svg": "/react_bc_48_001elijah/static/media/sprite.5e6c44aeceff6934ae9b29639dadf3f8.svg",
+    "index.html": "/react_bc_48_001elijah/index.html",
+    "main.c186e8db.css.map": "/react_bc_48_001elijah/static/css/main.c186e8db.css.map",
+    "main.deac79da.js.map": "/react_bc_48_001elijah/static/js/main.deac79da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c186e8db.css",
+    "static/js/main.deac79da.js"
+  ]
+}
