@@ -53,6 +53,7 @@ const MonthlyStats = () => {
         month: requstMonth + 1,
       })
     );
+    // eslint-disable-next-line
   }, [date]);
 
   useEffect(() => {
