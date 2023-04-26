@@ -1,6 +1,6 @@
 import s from './ExpensesBoard.module.scss';
 import { StatisticsNav } from '../StatisticsNav/StatisticsNav';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { PopUp } from '../PopUp/PopUp';
 import { useEffect, useState } from 'react';
 import { Calendar } from '../../DateInput/DateInput';
@@ -15,19 +15,20 @@ export const ExpensesList = () => {
   const [dataIn, setDataIn] = useState(''); //данні по обраній транзакції
   const [dateFilter, setDateFilter] = useState(''); //обрані дати
   const [transactionData, setTransactionData] = useState([]); //отримання транзакцій
+  // eslint-disable-next-line
   const [form, setForm]= useState()
 
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(getListOfCategory());    
- }, []);
+ }, [dispatch]);
 
   useEffect(() => {
     dispatch(getListOfTransactions(dateFilter)).then(data => {
       setTransactionData(data.payload);
     })
-  }, [dateFilter]);
+  }, [dateFilter, dispatch]);
 
 
 
