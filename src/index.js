@@ -19,7 +19,7 @@ import './index.scss';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter>
+        <BrowserRouter basename="/react_bc_48_001elijah/">
           <App />
         </BrowserRouter>
       </PersistGate>
