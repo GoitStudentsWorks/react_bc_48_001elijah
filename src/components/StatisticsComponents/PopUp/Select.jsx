@@ -35,12 +35,12 @@ const colourStyles = {
 
 export default function SelectCategory({ currentCategory, changeCategory }) {
   const [categoryValue, setCategoryValue] = useState('');
-  const dispatch = useDispatch();
 
   const categories = useSelector(state => state?.categories?.categories);
 
   useEffect(() => {
     changeCategory(categoryValue);
+    // eslint-disable-next-line
   }, [categoryValue]);
 
   const category = categories?.map(({ name, title }) => {
@@ -56,6 +56,7 @@ export default function SelectCategory({ currentCategory, changeCategory }) {
         return categoryId.value === currentCategory;
       })
     );
+    // eslint-disable-next-line
   }, []);
 
   return (
